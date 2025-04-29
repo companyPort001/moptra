@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search...</string>
+    <string name="nav_open">Open navigation Drawer</string>
+    <string name="nav_close">close navigation Drawer</string>
+
+    <string-array name="leave_types">
+        <item>Personal Leave</item>
+        <item>Sick Leave</item>
+        <item>Casual Leave</item>
+        <item>Vacation Leave</item>
+        <item>Compensatory Leave</item>
+    </string-array>
+
+    <string-array name="working_modes">
+        <item>Office</item>
+        <item>Remote</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Shape -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#7B5DAF" />  <!-- Set background color -->
+            <stroke android:width="8dp" android:color="@color/white" />
+        </shape>
+    </item>
+
+    <!-- Overlay Image -->
+    <item>
+        <bitmap
+            android:src="@drawable/finger"
+            android:gravity="center" />
+    </item>
+
+</layer-list>

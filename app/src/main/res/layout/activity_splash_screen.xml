@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash"
+    android:layout_width="match_parent"
+    android:background="@drawable/splash_screen_gradient"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SplashScreen">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/moptra_icon"
+        android:src="@drawable/moptra_icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/moptra_splash_screen_textview"
+        android:text="Moptra Infotech"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empower.Evolve.Excel"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>

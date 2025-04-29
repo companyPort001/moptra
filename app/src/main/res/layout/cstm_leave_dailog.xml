@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/light_purple_background"
+    android:gravity="center">
+
+    <!-- Optional Title (can remove if not needed) -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 4x2 Grid with Divider -->
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="4"
+        android:alignmentMode="alignMargins"
+        android:rowOrderPreserved="false"
+        android:layout_gravity="center"
+        android:divider="@drawable/grid"
+    android:dividerPadding="4dp"
+    android:showDividers="middle"
+    android:layout_marginTop="8dp">
+
+    <!-- Row 1 -->
+    <TextView
+        android:text="Available"
+        android:textColor="@android:color/black"
+        android:layout_margin="4dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="2"
+        android:textColor="@android:color/black"
+        android:layout_margin="4dp"
+        android:textSize="16sp" />
+
+    <!-- Row 2 -->
+    <TextView
+        android:text="Consumed"
+        android:textColor="@android:color/black"
+        android:layout_margin="4dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="18"
+        android:textColor="@android:color/black"
+        android:layout_margin="4dp"
+        android:textSize="16sp" />
+
+    <!-- Row 3 -->
+    <TextView
+        android:text="Carryover"
+        android:textColor="@android:color/black"
+        android:layout_margin="4dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:layout_margin="4dp"
+        android:textSize="16sp" />
+
+    <!-- Row 4 -->
+    <TextView
+        android:text="Annual Quota"
+        android:textColor="@android:color/black"
+        android:layout_margin="4dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="3"
+        android:textColor="@android:color/black"
+        android:layout_margin="4dp"
+        android:textSize="16sp" />
+</GridLayout>
+
+    <!-- Close Button -->
+<Button
+android:id="@+id/dialogCloseBtn"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="OK"
+android:backgroundTint="@color/dark_grey"
+android:layout_marginTop="20dp" />
+    </LinearLayout>
